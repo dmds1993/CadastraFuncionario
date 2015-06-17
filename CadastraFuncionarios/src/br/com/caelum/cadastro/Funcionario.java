@@ -7,7 +7,8 @@ abstract class Funcionario {
 	protected double salario;
 	protected static Data dataDeEntrada = new Data();
 	protected String senha;
-
+	private String teste;
+	
 	public static int getIdentificador() {
 		return Funcionario.getIdentificador();
 	}
